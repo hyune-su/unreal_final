@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Final_Report.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D801E5F3-FE40-45DA-A7FE-2021CEABBFB1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Final_Report.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Final_ReportEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0AFCAD18-6F3A-4CCA-B539-186E4EF6DC05}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Final_Report">
+      <UniqueIdentifier>{AE4ED9CC-E8FA-4AF1-9F93-8260BE74DDB3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Final_Report\Final_Report.Build.cs">
+      <Filter>Source\Final_Report</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Final_Report\Final_Report.cpp">
+      <Filter>Source\Final_Report</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Final_Report\Final_Report.h">
+      <Filter>Source\Final_Report</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Final_Report\Final_ReportCharacter.cpp">
+      <Filter>Source\Final_Report</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Final_Report\Final_ReportCharacter.h">
+      <Filter>Source\Final_Report</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Final_Report\Final_ReportGameMode.cpp">
+      <Filter>Source\Final_Report</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Final_Report\Final_ReportGameMode.h">
+      <Filter>Source\Final_Report</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Final_Report",
+			"Path": "C:\\Users\\whdfk\\Documents\\GitHub\\unreal_final\\Final_Report\\Source\\Final_Report.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Final_ReportEditor",
+			"Path": "C:\\Users\\whdfk\\Documents\\GitHub\\unreal_final\\Final_Report\\Source\\Final_ReportEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

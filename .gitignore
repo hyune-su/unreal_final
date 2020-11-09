@@ -5,3 +5,5 @@
 /Plugins
 *.sln
 *.BuiltData.uasset
+*.db
+*.pch
