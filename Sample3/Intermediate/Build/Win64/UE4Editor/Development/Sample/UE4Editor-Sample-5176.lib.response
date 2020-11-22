@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Sample-5176.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Sample\Intermediate\Build\Win64\SampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Sample\Intermediate\Build\Win64\UE4Editor\Development\Sample\Sample.cpp.obj"
+"D:\Unreal Projects\Sample\Intermediate\Build\Win64\UE4Editor\Development\Sample\SampleGameModeBase.cpp.obj"
+"D:\Unreal Projects\Sample\Intermediate\Build\Win64\UE4Editor\Development\Sample\Sample.init.gen.cpp.obj"
+"D:\Unreal Projects\Sample\Intermediate\Build\Win64\UE4Editor\Development\Sample\SampleGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\Sample\Intermediate\Build\Win64\UE4Editor\Development\Sample\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Sample\Intermediate\Build\Win64\UE4Editor\Development\Sample\UE4Editor-Sample-5176.lib"
+/INCLUDE:IMPLEMENT_MODULE_Sample

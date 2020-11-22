@@ -1,0 +1,14 @@
+﻿UnrealBuildTool : error : Unhandled exception: System.IO.DirectoryNotFoundException: 'C:\Users\whdfk\Desktop\�б� ���� �ڷ�' 경로의 일부를 찾을 수 없습니다.
+                             위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+                             위치: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+                             위치: System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+                             위치: System.IO.DirectoryInfo.EnumerateDirectories()
+                             위치: Tools.DotNETCommon.DirectoryUtils.FindCorrectCase(DirectoryInfo Info) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\DirectoryUtils.cs:줄 40
+                             위치: Tools.DotNETCommon.DirectoryUtils.FindCorrectCase(DirectoryInfo Info) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\DirectoryUtils.cs:줄 39
+                             위치: Tools.DotNETCommon.FileUtils.FindCorrectCase(FileInfo Info) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\FileUtils.cs:줄 55
+                             위치: UnrealBuildTool.TargetDescriptor.ParseSingleCommandLine(CommandLineArguments Arguments, Boolean bUsePrecompiled, Boolean bSkipRulesCompile, List`1 TargetDescriptors) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Configuration\TargetDescriptor.cs:줄 278
+                             위치: UnrealBuildTool.TargetDescriptor.ParseCommandLine(CommandLineArguments Arguments, Boolean bUsePrecompiled, Boolean bSkipRulesCompile, List`1 TargetDescriptors) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Configuration\TargetDescriptor.cs:줄 192
+                             위치: UnrealBuildTool.BuildMode.Execute(CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:줄 135
+                             위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:줄 517
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3075: "C:\Windows\System32\chcp.com 65001 >NUL 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3075:  "C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" SampleEditor Win64 Development -Project="C:\Users\whdfk\Desktop\학교 수업 자료\언리얼\Sample\Sample.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.
