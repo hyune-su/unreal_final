@@ -14,8 +14,8 @@ class UAnimMontage;
 #endif
 #define SAMPLE_ABCharacter_generated_h
 
-#define Sample2_Source_Sample_ABCharacter_h_12_SPARSE_DATA
-#define Sample2_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS \
+#define Sample3_Source_Sample_ABCharacter_h_12_SPARSE_DATA
+#define Sample3_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
@@ -28,7 +28,7 @@ class UAnimMontage;
 	}
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Sample3_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
@@ -41,7 +41,7 @@ class UAnimMontage;
 	}
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define Sample3_Source_Sample_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAABCharacter(); \
 	friend struct Z_Construct_UClass_AABCharacter_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(AABCharacter)
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_INCLASS \
+#define Sample3_Source_Sample_ABCharacter_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAABCharacter(); \
 	friend struct Z_Construct_UClass_AABCharacter_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(AABCharacter)
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define Sample3_Source_Sample_ABCharacter_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AABCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AABCharacter) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define Sample3_Source_Sample_ABCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AABCharacter(AABCharacter&&); \
@@ -83,7 +83,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AABCharacter)
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Sample3_Source_Sample_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AABCharacter, IsAttacking); } \
 	FORCEINLINE static uint32 __PPO__ABAnim() { return STRUCT_OFFSET(AABCharacter, ABAnim); } \
 	FORCEINLINE static uint32 __PPO__CanNextCombo() { return STRUCT_OFFSET(AABCharacter, CanNextCombo); } \
@@ -92,27 +92,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 	FORCEINLINE static uint32 __PPO__MaxCombo() { return STRUCT_OFFSET(AABCharacter, MaxCombo); }
 
 
-#define Sample2_Source_Sample_ABCharacter_h_9_PROLOG
-#define Sample2_Source_Sample_ABCharacter_h_12_GENERATED_BODY_LEGACY \
+#define Sample3_Source_Sample_ABCharacter_h_9_PROLOG
+#define Sample3_Source_Sample_ABCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_ABCharacter_h_12_SPARSE_DATA \
-	Sample2_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS \
-	Sample2_Source_Sample_ABCharacter_h_12_INCLASS \
-	Sample2_Source_Sample_ABCharacter_h_12_STANDARD_CONSTRUCTORS \
+	Sample3_Source_Sample_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_ABCharacter_h_12_SPARSE_DATA \
+	Sample3_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS \
+	Sample3_Source_Sample_ABCharacter_h_12_INCLASS \
+	Sample3_Source_Sample_ABCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Sample2_Source_Sample_ABCharacter_h_12_GENERATED_BODY \
+#define Sample3_Source_Sample_ABCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_ABCharacter_h_12_SPARSE_DATA \
-	Sample2_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Sample2_Source_Sample_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	Sample2_Source_Sample_ABCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	Sample3_Source_Sample_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_ABCharacter_h_12_SPARSE_DATA \
+	Sample3_Source_Sample_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Sample3_Source_Sample_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
+	Sample3_Source_Sample_ABCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -120,7 +120,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SAMPLE_API UClass* StaticClass<class AABCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Sample2_Source_Sample_ABCharacter_h
+#define CURRENT_FILE_ID Sample3_Source_Sample_ABCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

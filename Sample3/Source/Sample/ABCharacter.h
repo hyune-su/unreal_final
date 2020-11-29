@@ -41,9 +41,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(VisibleAnyWhere, Category = Camera)
+	UPROPERTY(EditAnyWhere, Category = Camera)
 		USpringArmComponent* SpringArm;
-	UPROPERTY(VisibleAnyWhere, Category = Camera)
+	UPROPERTY(EditAnyWhere, Category = Camera)
 		UCameraComponent* Camera;
 
 private:

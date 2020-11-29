@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SAMPLE_ABPawn_generated_h
 
-#define Sample2_Source_Sample_ABPawn_h_13_SPARSE_DATA
-#define Sample2_Source_Sample_ABPawn_h_13_RPC_WRAPPERS
-#define Sample2_Source_Sample_ABPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define Sample2_Source_Sample_ABPawn_h_13_INCLASS_NO_PURE_DECLS \
+#define Sample3_Source_Sample_ABPawn_h_13_SPARSE_DATA
+#define Sample3_Source_Sample_ABPawn_h_13_RPC_WRAPPERS
+#define Sample3_Source_Sample_ABPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Sample3_Source_Sample_ABPawn_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAABPawn(); \
 	friend struct Z_Construct_UClass_AABPawn_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AABPawn)
 
 
-#define Sample2_Source_Sample_ABPawn_h_13_INCLASS \
+#define Sample3_Source_Sample_ABPawn_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAABPawn(); \
 	friend struct Z_Construct_UClass_AABPawn_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AABPawn)
 
 
-#define Sample2_Source_Sample_ABPawn_h_13_STANDARD_CONSTRUCTORS \
+#define Sample3_Source_Sample_ABPawn_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AABPawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AABPawn) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Sample2_Source_Sample_ABPawn_h_13_ENHANCED_CONSTRUCTORS \
+#define Sample3_Source_Sample_ABPawn_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AABPawn(AABPawn&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABPawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AABPawn)
 
 
-#define Sample2_Source_Sample_ABPawn_h_13_PRIVATE_PROPERTY_OFFSET
-#define Sample2_Source_Sample_ABPawn_h_10_PROLOG
-#define Sample2_Source_Sample_ABPawn_h_13_GENERATED_BODY_LEGACY \
+#define Sample3_Source_Sample_ABPawn_h_13_PRIVATE_PROPERTY_OFFSET
+#define Sample3_Source_Sample_ABPawn_h_10_PROLOG
+#define Sample3_Source_Sample_ABPawn_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_ABPawn_h_13_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_ABPawn_h_13_SPARSE_DATA \
-	Sample2_Source_Sample_ABPawn_h_13_RPC_WRAPPERS \
-	Sample2_Source_Sample_ABPawn_h_13_INCLASS \
-	Sample2_Source_Sample_ABPawn_h_13_STANDARD_CONSTRUCTORS \
+	Sample3_Source_Sample_ABPawn_h_13_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_ABPawn_h_13_SPARSE_DATA \
+	Sample3_Source_Sample_ABPawn_h_13_RPC_WRAPPERS \
+	Sample3_Source_Sample_ABPawn_h_13_INCLASS \
+	Sample3_Source_Sample_ABPawn_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Sample2_Source_Sample_ABPawn_h_13_GENERATED_BODY \
+#define Sample3_Source_Sample_ABPawn_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_ABPawn_h_13_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_ABPawn_h_13_SPARSE_DATA \
-	Sample2_Source_Sample_ABPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Sample2_Source_Sample_ABPawn_h_13_INCLASS_NO_PURE_DECLS \
-	Sample2_Source_Sample_ABPawn_h_13_ENHANCED_CONSTRUCTORS \
+	Sample3_Source_Sample_ABPawn_h_13_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_ABPawn_h_13_SPARSE_DATA \
+	Sample3_Source_Sample_ABPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Sample3_Source_Sample_ABPawn_h_13_INCLASS_NO_PURE_DECLS \
+	Sample3_Source_Sample_ABPawn_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SAMPLE_API UClass* StaticClass<class AABPawn>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Sample2_Source_Sample_ABPawn_h
+#define CURRENT_FILE_ID Sample3_Source_Sample_ABPawn_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

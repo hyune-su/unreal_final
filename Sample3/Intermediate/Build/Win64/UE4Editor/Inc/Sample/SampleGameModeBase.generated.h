@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SAMPLE_SampleGameModeBase_generated_h
 
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_SPARSE_DATA
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_SPARSE_DATA
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASampleGameModeBase(); \
 	friend struct Z_Construct_UClass_ASampleGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ASampleGameModeBase)
 
 
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_INCLASS \
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesASampleGameModeBase(); \
 	friend struct Z_Construct_UClass_ASampleGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ASampleGameModeBase)
 
 
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASampleGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASampleGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASampleGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASampleGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASampleGameModeBase)
 
 
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define Sample2_Source_Sample_SampleGameModeBase_h_12_PROLOG
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define Sample3_Source_Sample_SampleGameModeBase_h_12_PROLOG
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_SPARSE_DATA \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_INCLASS \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_SPARSE_DATA \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_INCLASS \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Sample2_Source_Sample_SampleGameModeBase_h_15_GENERATED_BODY \
+#define Sample3_Source_Sample_SampleGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_SPARSE_DATA \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	Sample2_Source_Sample_SampleGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_SPARSE_DATA \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	Sample3_Source_Sample_SampleGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SAMPLE_API UClass* StaticClass<class ASampleGameModeBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Sample2_Source_Sample_SampleGameModeBase_h
+#define CURRENT_FILE_ID Sample3_Source_Sample_SampleGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

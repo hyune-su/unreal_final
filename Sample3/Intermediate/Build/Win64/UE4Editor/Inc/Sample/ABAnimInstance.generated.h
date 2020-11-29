@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SAMPLE_ABAnimInstance_generated_h
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_SPARSE_DATA
-#define Sample2_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_SPARSE_DATA
+#define Sample3_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execAnimNotify_NextAttackCheck) \
 	{ \
@@ -33,7 +33,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execAnimNotify_NextAttackCheck) \
 	{ \
@@ -52,7 +52,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_INCLASS_NO_PURE_DECLS \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUABAnimInstance(); \
 	friend struct Z_Construct_UClass_UABAnimInstance_Statics; \
@@ -61,7 +61,7 @@ public: \
 	DECLARE_SERIALIZER(UABAnimInstance)
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_INCLASS \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUABAnimInstance(); \
 	friend struct Z_Construct_UClass_UABAnimInstance_Statics; \
@@ -70,7 +70,7 @@ public: \
 	DECLARE_SERIALIZER(UABAnimInstance)
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_STANDARD_CONSTRUCTORS \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UABAnimInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABAnimInstance) \
@@ -83,7 +83,7 @@ private: \
 public:
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_ENHANCED_CONSTRUCTORS \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UABAnimInstance(UABAnimInstance&&); \
@@ -94,33 +94,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABAnimInstance); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UABAnimInstance)
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UABAnimInstance, CurrentPawnSpeed); } \
 	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(UABAnimInstance, IsInAir); } \
 	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UABAnimInstance, AttackMontage); }
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_15_PROLOG
-#define Sample2_Source_Sample_ABAnimInstance_h_18_GENERATED_BODY_LEGACY \
+#define Sample3_Source_Sample_ABAnimInstance_h_15_PROLOG
+#define Sample3_Source_Sample_ABAnimInstance_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_ABAnimInstance_h_18_SPARSE_DATA \
-	Sample2_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS \
-	Sample2_Source_Sample_ABAnimInstance_h_18_INCLASS \
-	Sample2_Source_Sample_ABAnimInstance_h_18_STANDARD_CONSTRUCTORS \
+	Sample3_Source_Sample_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_ABAnimInstance_h_18_SPARSE_DATA \
+	Sample3_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS \
+	Sample3_Source_Sample_ABAnimInstance_h_18_INCLASS \
+	Sample3_Source_Sample_ABAnimInstance_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Sample2_Source_Sample_ABAnimInstance_h_18_GENERATED_BODY \
+#define Sample3_Source_Sample_ABAnimInstance_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Sample2_Source_Sample_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
-	Sample2_Source_Sample_ABAnimInstance_h_18_SPARSE_DATA \
-	Sample2_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	Sample2_Source_Sample_ABAnimInstance_h_18_INCLASS_NO_PURE_DECLS \
-	Sample2_Source_Sample_ABAnimInstance_h_18_ENHANCED_CONSTRUCTORS \
+	Sample3_Source_Sample_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+	Sample3_Source_Sample_ABAnimInstance_h_18_SPARSE_DATA \
+	Sample3_Source_Sample_ABAnimInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Sample3_Source_Sample_ABAnimInstance_h_18_INCLASS_NO_PURE_DECLS \
+	Sample3_Source_Sample_ABAnimInstance_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -128,7 +128,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SAMPLE_API UClass* StaticClass<class UABAnimInstance>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Sample2_Source_Sample_ABAnimInstance_h
+#define CURRENT_FILE_ID Sample3_Source_Sample_ABAnimInstance_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

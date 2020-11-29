@@ -54,9 +54,10 @@ void AABCharacter::SetControlMode(EControlMode NewControlMode)
 	switch (NewControlMode)
 	{
 	case EControlMode::GTA:
-		//SpringArm->TargetArmLength = 450.0f;
+		SpringArm->TargetArmLength = 100.0f;
+		ArmLengthTo = 100.0f;
+		SpringArm->SocketOffset = FVector(0.0f, 50.0f, 10.0f);
 		//SpringArm->SetRelativeRotation(FRotator::ZeroRotator);
-		ArmLengthTo = 450.0f;
 		SpringArm->bUsePawnControlRotation = true;
 		SpringArm->bInheritPitch = true;
 		SpringArm->bInheritRoll = true;
